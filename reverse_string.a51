@@ -35,7 +35,6 @@ jnz loop
 
 idle:jmp idle
 
-
 WAIT_LCD:
 CLR EN ;Start LCD command
 CLR RS ;It's a command
@@ -133,7 +132,5 @@ movc a,@a+dptr
 LCALL WRITE_TEXT
 cjne a,#20h,loop8
 jmp idle
-
-
 
 END
