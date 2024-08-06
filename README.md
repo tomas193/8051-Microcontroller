@@ -7,7 +7,7 @@ Architecture:
 8-bit CPU with a Harvard architecture, meaning it has separate memory spaces for program code and data.
 It includes a special function register (SFR) area and a general-purpose register area.
 
-Memory: 
+*Memory*: 
 Typically includes 4 KB of on-chip ROM for program storage.
 128 bytes of on-chip RAM for data storage.
 Supports external memory expansion up to 64 KB for both program and data memory.
